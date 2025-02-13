@@ -11,7 +11,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CandidatRequest {
-    private long idCandidat;
+    private Long idCandidat;
     private String nom;
     private String prenom;
     private String email;

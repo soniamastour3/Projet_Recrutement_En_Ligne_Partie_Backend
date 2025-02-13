@@ -101,7 +101,7 @@ public class AuthController {
 
     if (strRoles == null || strRoles.isEmpty()) {
       // Par défaut, attribuez un rôle ou retournez une erreur
-      Role defaultRole = roleRepository.findByName(ERole.ROLE_CANDIDAT)
+      Role defaultRole = roleRepository.findByName(ERole.ROLE_ADMIN)
               .orElseThrow(() -> new RuntimeException("Error: Role is not found."));
       roles.add(defaultRole);
     } else {

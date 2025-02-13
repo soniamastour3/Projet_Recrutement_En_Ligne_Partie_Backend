@@ -15,7 +15,7 @@ import org.springframework.web.multipart.MultipartFile;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CandidatResponse {
-    private long idCandidat;
+    private Long idCandidat;
     private String nom;
     private String prenom;
     private String email;

@@ -22,7 +22,7 @@ import java.util.UUID;
 
 @Service
 public class StoresService {
-    private final Path rootLocation = Paths.get("C:\\Users\\maison info\\Desktop\\Projet Bootcamp\\Backend\\recrutement_en_ligne\\authentificationService\\upload");
+    private final Path rootLocation = Paths.get("C:\\Users\\ahmed\\Desktop\\Projet Bootcamp\\Backend\\recrutement_en_ligne\\authentificationService\\upload");
 
     @PostConstruct
     public void init() {

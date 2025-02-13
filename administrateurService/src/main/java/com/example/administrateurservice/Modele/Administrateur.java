@@ -20,7 +20,7 @@ import java.util.Set;
 public class Administrateur {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long idAdmin;
+    private Long idAdmin;
     private String nom;
     private String email;
     private String password;

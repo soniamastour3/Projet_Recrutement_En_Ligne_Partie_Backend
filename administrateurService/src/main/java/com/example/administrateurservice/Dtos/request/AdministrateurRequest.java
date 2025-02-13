@@ -10,7 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AdministrateurRequest {
-    private long idAdmin;
+    private Long idAdmin;
     private String nom;
     private String email;
     private String password;

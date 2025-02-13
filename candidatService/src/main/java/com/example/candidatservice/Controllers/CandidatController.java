@@ -49,7 +49,7 @@ public class CandidatController {
     }
 
     @GetMapping("/getone/{id}")
-    public CandidatResponse candidatbyid(@PathVariable long id) {
+    public CandidatResponse candidatbyid(@PathVariable Long id) {
         return candidatService.candidatById(id);
     }
 
